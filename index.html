@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="프리미엄 천연 생수 브랜드 - 청정수원에서 채취한 건강한 물, 지속가능한 패키징으로 당신의 건강한 라이프스타일을 지원합니다.">
+    <meta name="keywords" content="생수, 프리미엄 워터, 천연 미네랄, 건강한 물, 탄산수, 스파클링 워터">
+    <meta name="author" content="양경원 매니저">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AquaPure - 프리미엄 천연 생수">
+    <meta property="og:description" content="청정수원에서 채취한 건강한 물로 당신의 라이프스타일을 더욱 풍요롭게">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    
+    <title>AquaPure - 프리미엄 천연 생수 브랜드</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="assets/images/icon-192x192.png">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2C5F88">
+    <meta name="msapplication-TileColor" content="#2C5F88">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>AquaPure</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">홈</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">브랜드 소개</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">제품</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#source-quality" class="nav-link">수원지</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">라이프스타일</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sustainability" class="nav-link">지속가능성</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">문의</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-video">
+            <video autoplay muted loop>
+                <source src="assets/videos/hero-water.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">순수함이 담긴<br>프리미엄 워터</h1>
+            <p class="hero-subtitle">청정수원에서 시작되는 건강한 라이프스타일</p>
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-mountain"></i>
+                    <span>천연 미네랄 120mg/L</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>친환경 패키징</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-certificate"></i>
+                    <span>ISO 인증</span>
+                </div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('products')">
+                제품 보기 <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">브랜드 소개</h2>
+                <p class="section-subtitle">자연이 선사하는 순수함, AquaPure의 철학</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-story">
+                    <div class="story-slider" id="story-slider">
+                        <div class="slide active">
+                            <div class="slide-content">
+                                <h3>우리의 시작</h3>
+                                <p>깨끗한 자연에서 시작된 AquaPure는 단순히 물을 판매하는 것이 아닌, 건강한 라이프스타일과 지속가능한 미래를 제안합니다.</p>
+                            </div>
+                            <div class="slide-image">
+                                <img src="assets/images/about-origin.jpg" alt="브랜드 시작 이미지">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <h3>우리의 미션</h3>
+                                <p>모든 사람이 언제 어디서나 안전하고 깨끗한 물을 마실 수 있는 세상을 만들어가며, 환경을 보호하는 것이 우리의 사명입니다.</p>
+                            </div>
+                            <div class="slide-image">
+                                <img src="assets/images/about-mission.jpg" alt="미션 이미지">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <h3>우리의 비전</h3>
+                                <p>프리미엄, 건강, 자연, 지속가능성의 가치를 바탕으로 글로벌 워터 브랜드로 성장하여 더 나은 세상을 만들어가겠습니다.</p>
+                            </div>
+                            <div class="slide-image">
+                                <img src="assets/images/about-vision.jpg" alt="비전 이미지">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev" onclick="changeSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                        <button class="slider-btn next" onclick="changeSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="brand-values">
+                    <div class="value-item" data-aos="fade-up">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>프리미엄</h4>
+                        <p>최고급 수원지에서 엄선된 물만을 사용하여 프리미엄 품질을 보장합니다.</p>
+                    </div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>건강</h4>
+                        <p>인체에 필요한 천연 미네랄이 균형있게 함유되어 건강한 수분 보충을 돕습니다.</p>
+                    </div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>자연</h4>
+                        <p>자연 그대로의 순수함을 지키며, 인공적인 첨가물 없이 제공합니다.</p>
+                    </div>
+                    <div class="value-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="value-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h4>지속가능성</h4>
+                        <p>환경을 생각하는 패키징과 친환경 생산 프로세스로 지속가능한 미래를 만듭니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">제품 라인업</h2>
+                <p class="section-subtitle">다양한 상황에 맞는 프리미엄 워터를 만나보세요</p>
+            </div>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">전체</button>
+                <button class="filter-btn" data-filter="still">생수</button>
+                <button class="filter-btn" data-filter="sparkling">탄산수</button>
+                <button class="filter-btn" data-filter="flavored">플레이버드</button>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-category="still" data-aos="fade-up">
+                    <div class="product-image">
+                        <img src="assets/images/product-still-500ml.jpg" alt="AquaPure 생수 500ml">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('still-500ml')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 생수</h3>
+                        <p class="product-capacity">500ml</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-mountain"></i> 천연 미네랄
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-tint"></i> pH 7.4
+                            </span>
+                        </div>
+                        <p class="product-desc">일상에서 언제든 즐길 수 있는 순수한 생수</p>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="still" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-image">
+                        <img src="assets/images/product-still-1l.jpg" alt="AquaPure 생수 1L">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('still-1l')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 생수</h3>
+                        <p class="product-capacity">1L</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-home"></i> 가정용
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-recycle"></i> 재활용 용기
+                            </span>
+                        </div>
+                        <p class="product-desc">가정에서 편리하게 사용할 수 있는 대용량</p>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="sparkling" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image">
+                        <img src="assets/images/product-sparkling-330ml.jpg" alt="AquaPure 스파클링 330ml">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('sparkling-330ml')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 스파클링</h3>
+                        <p class="product-capacity">330ml</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-sparkles"></i> 탄산
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-wine-glass"></i> 프리미엄
+                            </span>
+                        </div>
+                        <p class="product-desc">식사와 함께 즐기는 우아한 스파클링 워터</p>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="flavored" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-image">
+                        <img src="assets/images/product-lemon-500ml.jpg" alt="AquaPure 레몬 500ml">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('lemon-500ml')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 레몬</h3>
+                        <p class="product-capacity">500ml</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-lemon"></i> 천연 레몬
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-running"></i> 스포츠
+                            </span>
+                        </div>
+                        <p class="product-desc">상쾌한 레몬 향이 더해진 활력 충전 워터</p>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="still" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-image">
+                        <img src="assets/images/product-glass-750ml.jpg" alt="AquaPure 유리병 750ml">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('glass-750ml')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 프리미엄</h3>
+                        <p class="product-capacity">750ml 유리병</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-gem"></i> 프리미엄
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-utensils"></i> 다이닝
+                            </span>
+                        </div>
+                        <p class="product-desc">특별한 순간을 위한 프리미엄 유리병 워터</p>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="sparkling" data-aos="fade-up" data-aos-delay="500">
+                    <div class="product-image">
+                        <img src="assets/images/product-sparkling-750ml.jpg" alt="AquaPure 스파클링 750ml">
+                        <div class="product-overlay">
+                            <button class="product-btn" onclick="openProductModal('sparkling-750ml')">
+                                <i class="fas fa-eye"></i> 상세보기
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>AquaPure 스파클링 프리미엄</h3>
+                        <p class="product-capacity">750ml 유리병</p>
+                        <div class="product-features">
+                            <span class="feature-tag">
+                                <i class="fas fa-champagne-glasses"></i> 특별한 순간
+                            </span>
+                            <span class="feature-tag">
+                                <i class="fas fa-star"></i> 한정판
+                            </span>
+                        </div>
+                        <p class="product-desc">특별한 축하의 순간을 위한 프리미엄 스파클링</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Source & Quality Section -->
+    <section id="source-quality" class="source-quality">
+        <div class="source-bg">
+            <img src="assets/images/source-background.jpg" alt="청정 수원지 배경">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">수원지 & 품질</h2>
+                <p class="section-subtitle">청정 자연에서 시작되는 순수함</p>
+            </div>
+            
+            <div class="source-content">
+                <div class="source-info">
+                    <div class="source-location" data-aos="fade-right">
+                        <h3>채수 지역</h3>
+                        <p>백두대간의 깊은 산맥에서 흘러내리는 천연 지하수를 채수합니다. 오염되지 않은 자연환경에서 수백 년간 자연 정화 과정을 거친 최고급 원수입니다.</p>
+                        <div class="location-features">
+                            <div class="feature">
+                                <i class="fas fa-mountain"></i>
+                                <span>해발 1,200m 청정지역</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>보호구역 지정</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-snowflake"></i>
+                                <span>연중 4-8°C 유지</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="quality-data" data-aos="fade-left">
+                        <h3>수질 데이터</h3>
+                        <div class="data-grid">
+                            <div class="data-item">
+                                <div class="data-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <div class="data-info">
+                                    <span class="data-label">pH 수치</span>
+                                    <span class="data-value" data-target="7.4">0</span>
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon">
+                                    <i class="fas fa-atom"></i>
+                                </div>
+                                <div class="data-info">
+                                    <span class="data-label">총 미네랄 (mg/L)</span>
+                                    <span class="data-value" data-target="120">0</span>
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon">
+                                    <i class="fas fa-thermometer-half"></i>
+                                </div>
+                                <div class="data-info">
+                                    <span class="data-label">채수 온도 (°C)</span>
+                                    <span class="data-value" data-target="6">0</span>
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon">
+                                    <i class="fas fa-tint"></i>
+                                </div>
+                                <div class="data-info">
+                                    <span class="data-label">경도 (mg/L)</span>
+                                    <span class="data-value" data-target="85">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="certifications" data-aos="fade-up">
+                    <h3>인증 및 품질 보증</h3>
+                    <div class="cert-grid">
+                        <div class="cert-item" onclick="toggleCertInfo('iso')">
+                            <img src="assets/images/cert-iso.png" alt="ISO 인증">
+                            <div class="cert-info" id="cert-iso">
+                                <h4>ISO 22000</h4>
+                                <p>식품안전경영시스템 국제표준 인증으로 원료부터 최종 제품까지 안전성을 보장합니다.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" onclick="toggleCertInfo('haccp')">
+                            <img src="assets/images/cert-haccp.png" alt="HACCP 인증">
+                            <div class="cert-info" id="cert-haccp">
+                                <h4>HACCP</h4>
+                                <p>식품 위해요소 중점관리기준으로 생산 전 과정에서 안전성을 체계적으로 관리합니다.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" onclick="toggleCertInfo('fda')">
+                            <img src="assets/images/cert-fda.png" alt="FDA 승인">
+                            <div class="cert-info" id="cert-fda">
+                                <h4>FDA 승인</h4>
+                                <p>미국 식품의약국 승인으로 국제적 품질 기준을 충족하는 안전한 제품입니다.</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" onclick="toggleCertInfo('organic')">
+                            <img src="assets/images/cert-organic.png" alt="유기농 인증">
+                            <div class="cert-info" id="cert-organic">
+                                <h4>유기농 인증</h4>
+                                <p>화학첨가물 없는 순수 천연 생수로 유기농 인증을 받았습니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">브랜드 경험</h2>
+                <p class="section-subtitle">AquaPure와 함께하는 특별한 순간들</p>
+            </div>
+            
+            <div class="experience-content">
+                <div class="lifestyle-gallery">
+                    <div class="gallery-grid" id="lifestyle-gallery">
+                        <div class="gallery-item" data-aos="zoom-in">
+                            <img src="assets/images/lifestyle-1.jpg" alt="운동 후 수분 보충">
+                            <div class="gallery-overlay">
+                                <h4>운동 후 수분 보충</h4>
+                                <p>최적의 미네랄 밸런스로 운동 후 빠른 회복을 도와줍니다</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="assets/images/lifestyle-2.jpg" alt="프리미엄 다이닝">
+                            <div class="gallery-overlay">
+                                <h4>프리미엄 다이닝</h4>
+                                <p>고급 레스토랑에서의 특별한 식사를 더욱 완벽하게</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="assets/images/lifestyle-3.jpg" alt="사무실 생활">
+                            <div class="gallery-overlay">
+                                <h4>사무실 생활</h4>
+                                <p>바쁜 일상 속에서도 건강한 수분 공급으로 집중력 향상</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="assets/images/lifestyle-4.jpg" alt="가족과 함께">
+                            <div class="gallery-overlay">
+                                <h4>가족과 함께</h4>
+                                <p>온 가족이 안심하고 마실 수 있는 안전한 물</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="assets/images/lifestyle-5.jpg" alt="여행과 나들이">
+                            <div class="gallery-overlay">
+                                <h4>여행과 나들이</h4>
+                                <p>언제 어디서나 휴대하기 편한 건강한 동반자</p>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="assets/images/lifestyle-6.jpg" alt="특별한 순간">
+                            <div class="gallery-overlay">
+                                <h4>특별한 순간</h4>
+                                <p>소중한 사람들과 나누는 순간을 더욱 특별하게</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tips-section">
+                    <h3>활용 팁</h3>
+                    <div class="tips-grid">
+                        <div class="tip-item" data-aos="fade-up">
+                            <div class="tip-icon">
+                                <i class="fas fa-cocktail"></i>
+                            </div>
+                            <h4>칵테일 베이스</h4>
+                            <p>AquaPure 스파클링으로 만드는 프리미엄 칵테일 레시피를 소개합니다.</p>
+                            <button class="tip-btn" onclick="showTipDetail('cocktail')">레시피 보기</button>
+                        </div>
+                        <div class="tip-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="tip-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h4>요리 활용</h4>
+                            <p>순수한 물로 만드는 차와 커피의 깊은 맛을 경험해보세요.</p>
+                            <button class="tip-btn" onclick="showTipDetail('cooking')">팁 보기</button>
+                        </div>
+                        <div class="tip-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="tip-icon">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <h4>뷰티 케어</h4>
+                            <p>미네랄이 풍부한 물로 피부 건강까지 챙기는 방법을 알려드립니다.</p>
+                            <button class="tip-btn" onclick="showTipDetail('beauty')">방법 보기</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="video-section">
+                    <h3>브랜드 스토리</h3>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                                title="AquaPure 브랜드 스토리" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sustainability Section -->
+    <section id="sustainability" class="sustainability">
+        <div class="sustainability-bg">
+            <div class="parallax-layer" data-speed="0.5">
+                <img src="assets/images/sustainability-bg.jpg" alt="지속가능성 배경">
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">지속가능성</h2>
+                <p class="section-subtitle">미래 세대를 위한 우리의 약속</p>
+            </div>
+            
+            <div class="sustainability-content">
+                <div class="eco-packaging" data-aos="fade-right">
+                    <div class="eco-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>친환경 패키징</h3>
+                    <div class="eco-features">
+                        <div class="eco-item">
+                            <i class="fas fa-recycle"></i>
+                            <div>
+                                <h4>100% 재활용 가능</h4>
+                                <p>모든 패키징 소재는 완전히 재활용 가능한 소재를 사용합니다.</p>
+                            </div>
+                        </div>
+                        <div class="eco-item">
+                            <i class="fas fa-seedling"></i>
+                            <div>
+                                <h4>생분해 라벨</h4>
+                                <p>자연 분해되는 친환경 라벨로 환경 오염을 최소화합니다.</p>
+                            </div>
+                        </div>
+                        <div class="eco-item">
+                            <i class="fas fa-wind"></i>
+                            <div>
+                                <h4>탄소 중립</h4>
+                                <p>생산 과정에서 발생하는 탄소를 상쇄하는 프로그램을 운영합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="csr-activities" data-aos="fade-left">
+                    <h3>사회 공헌 활동</h3>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-image">
+                                <img src="assets/images/csr-water-protection.jpg" alt="수자원 보호">
+                            </div>
+                            <div class="activity-content">
+                                <h4>수자원 보호</h4>
+                                <p>깨끗한 물의 지속적인 공급을 위해 수원지 주변 환경 보전에 적극 참여합니다.</p>
+                                <ul>
+                                    <li>연간 1,000그루 나무 심기</li>
+                                    <li>하천 정화 활동</li>
+                                    <li>지역사회 상생 프로그램</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-image">
+                                <img src="assets/images/csr-education.jpg" alt="교육 지원">
+                            </div>
+                            <div class="activity-content">
+                                <h4>교육 지원</h4>
+                                <p>아이들에게 물의 소중함과 환경 보호의 중요성을 교육하는 프로그램을 운영합니다.</p>
+                                <ul>
+                                    <li>물 환경 교육 프로그램</li>
+                                    <li>학교 급수시설 개선</li>
+                                    <li>환경 보호 캠페인</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-stats" data-aos="fade-up">
+                    <h3>환경 영향 지표</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-tint"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-target="50000">0</span>
+                                <span class="stat-unit">L</span>
+                                <p>연간 절약된 물</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-target="1000">0</span>
+                                <span class="stat-unit">그루</span>
+                                <p>심은 나무</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-recycle"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-target="85">0</span>
+                                <span class="stat-unit">%</span>
+                                <p>재활용률</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-number" data-target="30">0</span>
+                                <span class="stat-unit">%</span>
+                                <p>탄소 배출 감소</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">문의하기</h2>
+                <p class="section-subtitle">AquaPure에 대해 궁금한 점이 있으시면 언제든 연락주세요</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>연락처 정보</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>전화번호</h4>
+                            <p>010-5351-7822</p>
+                            <p>양경원 매니저</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>이메일</h4>
+                            <p>info@aquapure.kr</p>
+                            <p>contact@aquapure.kr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>주소</h4>
+                            <p>서울특별시 강남구</p>
+                            <p>테헤란로 123길 45</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>운영시간</h4>
+                            <p>평일 9:00 - 18:00</p>
+                            <p>토요일 9:00 - 15:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">이름 *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일 *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">전화번호</label>
+                            <input type="tel" id="phone" name="phone">
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">문의 유형</label>
+                            <select id="subject" name="subject">
+                                <option value="">선택해주세요</option>
+                                <option value="product">제품 문의</option>
+                                <option value="partnership">파트너십</option>
+                                <option value="distribution">유통 문의</option>
+                                <option value="csr">CSR 협력</option>
+                                <option value="other">기타</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">문의 내용 *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                개인정보 처리방침에 동의합니다 *
+                            </label>
+                            <span class="error-message" id="privacy-error"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">문의 보내기</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AquaPure</h3>
+                    <p>청정수원에서 시작되는 건강한 라이프스타일</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>제품</h4>
+                    <ul>
+                        <li><a href="#products">생수</a></li>
+                        <li><a href="#products">스파클링 워터</a></li>
+                        <li><a href="#products">플레이버드 워터</a></li>
+                        <li><a href="#products">프리미엄 라인</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>회사</h4>
+                    <ul>
+                        <li><a href="#about">브랜드 소개</a></li>
+                        <li><a href="#source-quality">품질 관리</a></li>
+                        <li><a href="#sustainability">지속가능성</a></li>
+                        <li><a href="#contact">문의하기</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>고객 지원</h4>
+                    <ul>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                        <li><a href="#">배송 정보</a></li>
+                        <li><a href="#">반품/교환</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AquaPure. All rights reserved. | 담당자: 양경원 매니저 (010-5351-7822)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProductModal()">&times;</span>
+            <div id="modal-body">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Tip Detail Modal -->
+    <div id="tip-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeTipModal()">&times;</span>
+            <div id="tip-modal-body">
+                <!-- Tip details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div id="success-message" class="success-message">
+        <i class="fas fa-check-circle"></i>
+        <span>문의가 성공적으로 전송되었습니다!</span>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize scroll animations
+            initScrollAnimations();
+            
+            // Initialize intersection observer for animations
+            initIntersectionObserver();
+            
+            // Initialize all functionality
+            initMobileMenu();
+            initSmoothScroll();
+            initProductFilters();
+            initContactForm();
+            initParallax();
+            
+            // Start counting animations when page loads
+            startCountAnimation();
+        });
+    </script>
+</body>
+</html>
